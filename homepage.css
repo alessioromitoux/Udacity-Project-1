@@ -1,0 +1,403 @@
+@import url("mediaquery(max320).css");
+@import url("mediaquery(600-900).css");
+@import url("mediaquery(901).css");
+@import url("mediaquery(321-599).css");
+
+p {
+  color: #2F4F4F;
+}
+
+h3 {
+  color: #85144b;
+}
+
+h2 {
+  color: #001f3f;
+}
+
+#blog-title {
+  font-weight: bolder;
+  color: black;
+}
+
+#box-text {
+  color: black;
+}
+
+.articles-text {
+  text-decoration: underline;
+}
+
+#box-inside-text {
+  font-style: italic;
+}
+
+figure {
+  font-size: 0.8em;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+blockquote {
+  color: #2F4F4F;
+  font-style: italic;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-bottom: 1em;
+}
+
+body {
+  font-family: 'Montserrat', 'Lobster', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.site-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 70vw 1fr;
+  grid-template-rows: 10vh 80vh 1fr 120vh 60vh 12vh;
+  grid-gap: 2em;
+  grid-template-areas:
+  "nav nav"
+  "hd hd"
+  "main sd"
+  "photo photo"
+  "newsletter newsletter"
+  "ft ft";
+}
+
+.nav-container {
+  grid-area: nav;
+}
+
+header {
+  margin-top: -2em;
+  width: 100vw;
+  grid-area: hd;
+}
+
+.main-container {
+  grid-area: main;
+}
+
+.sidebar-container {
+  grid-area: sd;
+}
+
+.photogallery-container {
+  grid-area: photo;
+}
+
+.newsletter {
+  grid-area: newsletter;
+}
+
+footer {
+  grid-area: ft;
+}
+
+.nav-container {
+  position: absolute;
+  position: fixed;
+}
+
+
+.nav-subcontainer {
+  width: 100vw;
+  background-color: rgba(30, 139, 195, 1);
+  display: grid;
+  grid-template-columns: 54vw 10vw 10vw 10vw 10vw;
+  height: 10vh;
+}
+
+.nav-items {
+  margin-left: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+#home {
+  font-family: 'Lobster';
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+
+#nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+#nav-link:hover {
+  color: orange;
+}
+
+#search-input {
+  color: #85144b;
+  width: 12vw;
+  height: 5vh;
+  font-size: 0.7em;
+  font-family: 'Montserrat';
+  padding: 0.2em;
+}
+
+#search-input:hover {
+  border: 0.1em solid #85144b;
+  transform: scale(1.08);
+}
+
+header {
+  width: 100vw;
+  background-image: url(images/header2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-box {
+  margin-left: 1em;
+  border: 0.2em solid rgba(30, 139, 195, 1);
+  border-radius: 0.3em;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 40vw;
+  height: 27vh;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.main-subcontainer {
+  margin-left: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.article-items {
+  border: 0.2em solid rgba(30, 139, 195, 1);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+  background: rgba(30, 139, 195, 0.2);
+  border-radius: 0.3em;
+  color: inherit;
+}
+
+.articles-img {
+  width: 12vw;
+  height: 20vh;
+  border-radius: 0.2em;
+}
+
+#main-container-title {
+  margin-left: 1em;
+}
+
+.readmore-button {
+  background-color: rgba(30, 139, 195, 1);
+  border: rgba(30, 139, 195, 0.8);
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-radius: 0.2em;
+}
+
+.readmore-button:hover {
+  background-color: orange;
+}
+
+.button-link {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-container {
+  margin-top: 10em;
+}
+
+
+.sidebar-items {
+  margin-right: 2em;
+  border: 0.2em solid lightgrey;
+  background-color: lightgrey;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.authors-link {
+  text-decoration: none;
+}
+
+.archives-link {
+  text-decoration: none;
+}
+
+.social-img {
+  width: 1.5vw;
+  margin-right: 1em;
+}
+
+#photogallery-title {
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+.photogallery-container {
+  background-color: rgba(30, 139, 195, 0.2);
+}
+
+.photogallery-subcontainer {
+  width: 100vw;
+  margin-left: 1em;
+  margin-right: 1.3em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "photo1 photo2 photo3"
+  "photo4 photo5 photo6";
+}
+
+
+.photogallery-items {
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  margin-bottom: 2em;
+  border-radius: 1em;
+}
+
+#photo1 {
+  grid-area: photo1;
+  background-image: url(images/photo1.jpg);
+  background-size: cover;
+}
+
+#photo2 {
+  grid-area: photo2;
+  background-image: url(images/photo2.jpg);
+  background-size: cover;
+}
+
+#photo3 {
+  grid-area: photo3;
+  background-image: url(images/photo3.jpg);
+  background-size: cover;
+}
+
+#photo4 {
+  grid-area: photo4;
+  background-image: url(images/photo4.jpg);
+  background-size: cover;
+}
+
+#photo5 {
+  grid-area: photo5;
+  background-image: url(images/photo5.jpg);
+  background-size: cover;
+}
+
+#photo6 {
+  grid-area: photo6;
+  background-image: url(images/photo6.jpg);
+  background-size: cover;
+}
+
+.newsletter {
+  background-image: url(images/newsletter.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.newsletter-box {
+  grid-area: box;
+  color: inherit;
+  border: 0.2em solid rgba(30, 139, 195, 1);
+  background: rgba(236, 236, 236, 0.8);
+  text-align: center;
+  border-radius: 0.3em;
+  width: 30vw;
+  height: 40vh;
+}
+
+.newsletter-items {
+  width: 15vw;
+  height: 3vh;
+  border-radius: 0.1em;
+  background-color: white;
+  border: rgba(30, 139, 195, 1);
+  color: #85144b;
+  font-family: 'Montserrat';
+  padding: 1em;
+}
+
+.submit-button {
+  color: white;
+  margin-top: 1em;
+  border-radius: 0.1em;
+  width: 10vw;
+  height: 5vh;
+  font-family: 'Montserrat';
+  font-size: 1em;
+  border: 0.1em;
+  background-color: rgba(30, 139, 195, 1);
+}
+
+.submit-button:hover {
+  background-color: orange;
+}
+
+footer {
+  width: 100vw;
+  background-color: rgba(30, 139, 195, 1);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 83vmax 1fr;
+  grid-template-areas:
+  "copy back";
+  margin-left: 1em;
+}
+
+#copyright {
+  grid-area: copy;
+}
+
+#back-link {
+  grid-area: back;
+}
+
+.footer-items {
+  color: white;
+  margin-top: 2.5em;
+  display: flex;
+}
+
+#back-link {
+  color: white;
+  margin-right: 2em;
+}
+#back {
+  justify-content: flex-end;
+  align-items: flex-end;
+}

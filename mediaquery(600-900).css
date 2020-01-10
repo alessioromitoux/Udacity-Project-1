@@ -1,0 +1,235 @@
+@media(min-width: 600px) and (max-width: 900px) {
+  .site-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18vh 90vh 1fr 1fr 1fr 100vh 10vh;
+    grid-gap: 2em;
+    grid-template-areas:
+    "nav"
+    "hd"
+    "main"
+    "sd"
+    "photo"
+    "newsletter"
+    "ft";
+  }
+  .nav-subcontainer {
+    width: 100vw;
+    background-color: rgba(30, 139, 195, 1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "home home home home"
+    "place food nightlife search";
+    height: 18vh;
+  }
+  .nav-items {
+    margin-left: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3em;
+  }
+  #home {
+    grid-area: home;
+    font-size: 1.4em;
+  }
+  #place {
+    grid-area: place;
+  }
+  #food {
+    grid-area: food;
+  }
+  #nightlife {
+    grid-area: nightlife;
+  }
+  #search {
+    grid-area: search;
+  }
+  #search-input {
+    width: 20vw;
+  }
+
+  header {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-box {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    border-radius: 0.3em;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 91vw;
+    height: 30vh;
+    padding: 1em;
+    line-height: 1.5em;
+  }
+
+  .main-subcontainer {
+    margin-left: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2em;
+  }
+
+  .article-items {
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    background: rgba(30, 139, 195, 0.2);
+    border-radius: 0.3em;
+    color: inherit;
+    width: 37vw;
+  }
+
+  .articles-img {
+    width: 35vmin;
+    height: 35vmin;
+    border-radius: 0.2em;
+  }
+
+  #main-container-title {
+    margin-left: 0.5em;
+  }
+  .sidebar-container {
+    margin-top: -3em;
+  }
+
+  .sidebar-subcontainer {
+    margin-top: 4.5em;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+
+  .sidebar-items {
+    margin-top: 0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    border: 0.2em solid lightgrey;
+    background-color: lightgrey;
+    justify-content: center;
+    padding: 1em;
+    display: inline;
+  }
+  .social-img {
+    width: 3vw;
+    margin-right: 1em;
+  }
+
+  #archives {
+    margin-top: 1em;
+  }
+
+  #follow-us {
+    margin-top: 1em;
+  }
+
+  #photogallery-title {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  .photogallery-container {
+    background-color: rgba(30, 139, 195, 0.2);
+  }
+  .photogallery-subcontainer {
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "photo1 photo2"
+    "photo3 photo4"
+    "photo5 photo6";
+  }
+  .photogallery-items {
+    width: 47vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 0;
+  }
+
+  .newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+  }
+
+  .newsletter-box {
+    grid-area: box;
+    color: inherit;
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    background: rgba(236, 236, 236, 0.8);
+    text-align: center;
+    border-radius: 0.3em;
+    width: 80vmin;
+    height: 53vmin;
+  }
+
+  .newsletter-items {
+    width: 30vmin;
+    height: 5vmin;
+    border-radius: 0.1em;
+    background-color: white;
+    border: rgba(30, 139, 195, 1);
+    color: inherit;
+    font-family: 'Montserrat';
+    padding: 1em;
+  }
+
+  .submit-button {
+    color: white;
+    margin-top: 1em;
+    border-radius: 0.1em;
+    width: 20vmin;
+    height: 7vmin;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    border: 0.1em;
+    background-color: rgba(30, 139, 195, 1);
+  }
+
+  footer {
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0.5em;
+  }
+
+  #back {
+    display: none;
+  }
+
+  .footer-items {
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

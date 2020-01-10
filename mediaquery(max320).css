@@ -1,0 +1,162 @@
+@media(max-width: 320px) {
+  .site-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 70vh 1fr 145vh 350vh 70vh;
+    grid-gap: 2em;
+    grid-template-areas:
+    "nav"
+    "hd"
+    "main"
+    "sd"
+    "photo"
+    "newsletter";
+  }
+  footer {
+    display: none;
+  }
+  .nav-subcontainer {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 20vh;
+    grid-template-areas:
+    "home home home"
+    "place food nightlife";
+  }
+  #home {
+    grid-area: home;
+    font-size: 1.4em;
+  }
+  #place {
+    grid-area: place;
+  }
+  #food {
+    grid-area: food;
+  }
+  #nightlife {
+    grid-area: nightlife;
+  }
+  #search {
+    display: none;
+  }
+  .nav-items {
+    margin-left: 0.4em;
+  }
+  .header-box {
+    margin-left: 0.4em;
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    border-radius: 0.3em;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 85vw;
+    height: 45vh;
+    padding: 1em;
+    line-height: 1.5em;
+  }
+  .main-subcontainer {
+    margin-left: 0.4em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+  #main-container-title {
+    margin-left: 0.4em;
+  }
+  .article-items {
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    background: rgba(30, 139, 195, 0.2);
+    border-radius: 0.3em;
+    color: inherit;
+    width: 85vw;
+  }
+
+  .articles-img {
+    width: 50vw;
+    height: 30vh;
+    border-radius: 0.2em;
+  }
+  .sidebar-container {
+    margin-top: 0.5em;
+  }
+  .sidebar-items {
+    margin-right: 2em;
+    border: 0.2em solid lightgrey;
+    background-color: lightgrey;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 90vw;
+  }
+  .social-img {
+    width: 7vw;
+    margin-right: 1em;
+  }
+  #photogallery-title {
+    margin-left: -1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  .photogallery-subcontainer {
+    width: 100vw;
+    margin-left: 1em;
+    margin-right: 1.3em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "photo1"
+    "photo2"
+    "photo3"
+    "photo4"
+    "photo5"
+    "photo6";
+  }
+  .photogallery-items {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    margin-bottom: 2em;
+    border-radius: 1em;
+  }
+  .newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+  }
+  .newsletter-box {
+    grid-area: box;
+    color: inherit;
+    border: 0.2em solid rgba(30, 139, 195, 1);
+    background: rgba(236, 236, 236, 0.8);
+    text-align: center;
+    margin-left: -2em;
+    border-radius: 0.3em;
+    width: 90vw;
+    height: 50vh;
+  }
+  .newsletter-items {
+    width: 40vw;
+    height: 3vh;
+    border-radius: 0.1em;
+    background-color: white;
+    border: rgba(30, 139, 195, 1);
+    color: inherit;
+    font-family: 'Montserrat';
+    padding: 1em;
+  }
+  .submit-button {
+    color: white;
+    margin-top: 1em;
+    border-radius: 0.1em;
+    width: 40vw;
+    height: 5vh;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    border: 0.1em;
+    background-color: rgba(30, 139, 195, 1);
+  }
+}
