@@ -158,7 +158,7 @@ footer {
 
 header {
   width: 100vw;
-  background-image: url(images/header2.jpg);
+  background-image: url(../images/header2.jpg);
   background-size: cover;
   display: flex;
   justify-content: flex-start;
@@ -281,42 +281,42 @@ header {
 
 #photo1 {
   grid-area: photo1;
-  background-image: url(images/photo1.jpg);
+  background-image: url(../images/photo1.jpg);
   background-size: cover;
 }
 
 #photo2 {
   grid-area: photo2;
-  background-image: url(images/photo2.jpg);
+  background-image: url(../images/photo2.jpg);
   background-size: cover;
 }
 
 #photo3 {
   grid-area: photo3;
-  background-image: url(images/photo3.jpg);
+  background-image: url(../images/photo3.jpg);
   background-size: cover;
 }
 
 #photo4 {
   grid-area: photo4;
-  background-image: url(images/photo4.jpg);
+  background-image: url(../images/photo4.jpg);
   background-size: cover;
 }
 
 #photo5 {
   grid-area: photo5;
-  background-image: url(images/photo5.jpg);
+  background-image: url(../images/photo5.jpg);
   background-size: cover;
 }
 
 #photo6 {
   grid-area: photo6;
-  background-image: url(images/photo6.jpg);
+  background-image: url(../images/photo6.jpg);
   background-size: cover;
 }
 
 .newsletter {
-  background-image: url(images/newsletter.jpg);
+  background-image: url(../images/newsletter.jpg);
   background-size: cover;
   background-position: center;
 }

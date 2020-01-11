@@ -43,7 +43,7 @@ h2 {
 
 #blog-post-header {
   grid-area: hd;
-  background-image: url(images/square.jpg);
+  background-image: url(../images/square.jpg);
   background-size: cover;
   background-position: bottom;
   display: flex;
