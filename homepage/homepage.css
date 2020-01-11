@@ -222,9 +222,37 @@ header {
 }
 
 .sidebar-container {
-  margin-top: 10em;
+  margin-top: 4.3em;
+  margin-left: -0.5em;
 }
 
+.founder-image {
+  width: 26vw;
+  height: 44vh;
+}
+
+#the-founder-title {
+  text-align: center;
+}
+
+.about-the-founder {
+  margin-left: 0;
+  margin-right: 3em;
+  border: 0.2em solid lightgrey;
+  background-color: lightgrey;
+  margin-bottom: 1em;
+  min-width: 20vw;
+}
+
+.about-the-founder-container {
+  background-color: white;
+  margin-top: -1.5em;
+  padding: 1em;
+}
+
+#founder-text {
+  text-align: center;
+}
 
 .sidebar-items {
   margin-right: 2em;

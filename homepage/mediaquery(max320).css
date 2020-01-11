@@ -1,7 +1,7 @@
 @media(max-width: 320px) {
   .site-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 70vh 1fr 145vh 350vh 70vh;
+    grid-template-rows: 20vh 70vh 1fr 223vh 350vh 70vh;
     grid-gap: 2em;
     grid-template-areas:
     "nav"
@@ -58,6 +58,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
   }
+
   #main-container-title {
     margin-left: 0.4em;
   }
@@ -77,9 +78,44 @@
     height: 30vh;
     border-radius: 0.2em;
   }
+
+  .founder-image {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  #the-founder-title {
+    text-align: center;
+  }
+
+  .about-the-founder {
+    margin-left: 0;
+    margin-right: 3em;
+    border: 0.2em solid lightgrey;
+    background-color: lightgrey;
+    margin-bottom: 1em;
+    width: 100vw;
+  }
+
+  .about-the-founder-container {
+    background-color: white;
+    margin-top: -1.5em;
+    padding: 0.5em;
+  }
+
+  #founder-text {
+    text-align: center;
+  }
+
   .sidebar-container {
     margin-top: 0.5em;
   }
+
+  .sidebar-container {
+    margin-top: 4.3em;
+    margin-left: 0;
+  }
+
   .sidebar-items {
     margin-right: 2em;
     border: 0.2em solid lightgrey;
@@ -88,15 +124,19 @@
     padding: 1em;
     width: 90vw;
   }
+
   .social-img {
     width: 7vw;
     margin-right: 1em;
   }
+
   #photogallery-title {
-    margin-left: -1.5em;
+    margin-left: 0;
+    margin-right: 2em;
     margin-bottom: 1.5em;
     text-align: center;
   }
+
   .photogallery-subcontainer {
     width: 100vw;
     margin-left: 1em;
@@ -127,7 +167,9 @@
     align-items: center;
     margin-top: 4em;
   }
+
   .newsletter-box {
+    margin-right: 1em;
     grid-area: box;
     color: inherit;
     border: 0.2em solid rgba(30, 139, 195, 1);
@@ -138,6 +180,7 @@
     width: 90vw;
     height: 50vh;
   }
+
   .newsletter-items {
     width: 40vw;
     height: 3vh;

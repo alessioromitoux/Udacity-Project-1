@@ -1,7 +1,7 @@
 @media(min-width: 321px) and (max-width: 599px) {
   .site-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 70vh 1fr 140vh 350vh 70vh;
+    grid-template-rows: 20vh 70vh 1fr 230vh 350vh 70vh;
     grid-gap: 2em;
     grid-template-areas:
     "nav"
@@ -84,11 +84,18 @@
     height: 50vmin;
     border-radius: 0.2em;
   }
+
   .sidebar-container {
     justify-content: center;
     align-items: center;
     margin-top: 0.5em;
   }
+
+  .sidebar-container {
+    margin-top: 4.3em;
+    margin-left: -0.2em;
+  }
+
   .sidebar-items {
     margin-left: 0.5em;
     margin-right: 0;
@@ -98,6 +105,29 @@
     padding: 1em;
     width: 85vw;
   }
+
+  .founder-image {
+    width: 95vmin;
+    height: 80vmin;
+  }
+
+  .about-the-founder {
+    margin-left: 0.5em;
+    margin-right: 0;
+    border: 0.2em solid lightgrey;
+    background-color: lightgrey;
+    margin-bottom: 1em;
+    width: 95vmin;
+  }
+
+  #the-founder-title {
+    text-align: left;
+  }
+
+  #founder-text {
+    text-align: left;
+  }
+
   .social-img {
     width: 7vw;
     margin-right: 1em;

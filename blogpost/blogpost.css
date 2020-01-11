@@ -261,6 +261,28 @@ footer {
 
 .blog-post-sidebar {
   margin-top: 2em;
+  margin-right: 1em;
+}
+
+.blog-post-sidebar-card {
+  margin-left: 0;
+  margin-right: 3em;
+  border: 0.2em solid lightgrey;
+  background-color: lightgrey;
+  margin-bottom: 1em;
+  width: 26vw;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 26vw;
+}
+
+.blog-post-sidebar-card-container {
+  background-color: white;
+  margin-top: -1.5em;
+  padding: 1em;
 }
 
 .blog-post-sidebar-items {
@@ -270,7 +292,7 @@ footer {
   background-color: lightgrey;
   margin-bottom: 1em;
   padding: 1em;
-  min-width: 23.5vw;
+  width: 23;
   justify-content: flex-start;
   align-items: center;
 }
@@ -321,7 +343,7 @@ footer {
 }
 
 .avatar-image {
-  width: 5vw;
+  width: 26vw;
 }
 
 .mailto {
